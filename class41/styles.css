@@ -1,0 +1,37 @@
+:root{
+    --primaryColor:#033476;
+    --secondaryColor:#b4d2fb;
+    --header-size:4rem;
+    --font:1.6rem;
+    --highest-view-width: 100vw;
+    --height:15vh;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+header{
+    width:100%;
+    height:var(--height);
+    background-color: var(--primaryColor);
+}
+main{
+    width:var(--highest-view-width);
+    height:70vh;
+    font-size:var(--font);
+}
+
+h1{
+    font-size:var(--header-size);
+    color:var(--primaryColor);
+}
+footer{
+    width: var(--highest-view-width);
+    height:var(--height);
+    background-color: var(--secondaryColor);
+}
